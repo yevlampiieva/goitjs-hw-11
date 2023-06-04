@@ -1,0 +1,11 @@
+body {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  background-color: rgb(240, 237, 232);
+}
+
+ul {
+  list-style: none;
+}
