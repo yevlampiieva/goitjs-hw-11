@@ -9,3 +9,57 @@ body {
 ul {
   list-style: none;
 }
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.search-form > input {
+  display: block;
+  width: 500px;
+  height: 30px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+.search-form button {
+  display: block;
+  width: 100px;
+  height: 30px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 auto;
+  background-color: #df8051;
+  border: 1px solid #4e3b31;
+  border-radius: 4px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
+
+.load-more {
+  display: block;
+  width: 100px;
+  height: 30px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10 auto;
+  background-color: #df8051;
+  border: 1px solid #4e3b31;
+  border-radius: 4px;
+}
